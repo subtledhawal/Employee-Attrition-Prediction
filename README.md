@@ -1,6 +1,6 @@
 # Employee Attrition Prediction
 
-This project predicts employee attrition using machine learning techniques. The model is trained to predict whether an employee will leave the company based on various factors like satisfaction level, last evaluation, number of projects, and more. Random Forest Classifier is used as the primary model, and its performance is evaluated using accuracy, precision, recall, and F1-score metrics.
+This project predicts employee attrition using machine learning techniques. The model is trained to predict whether an employee will leave the company based on factors like satisfaction level, last evaluation, number of projects, and more. Random Forest Classifier is used as the primary model, and its performance is evaluated using accuracy, precision, recall, and F1-score metrics.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -14,7 +14,7 @@ This project predicts employee attrition using machine learning techniques. The 
 
 ## Project Overview
 
-Employee attrition is a key concern for many organizations. The goal of this project is to predict employee turnover using machine learning models and identify the key factors that contribute to attrition.
+Employee attrition is a key concern for many organizations. This project aims to predict employee turnover using machine learning models and identify the key factors contributing to attrition.
 
 ## Data Preprocessing
 
@@ -26,7 +26,7 @@ The data is cleaned and preprocessed with the following steps:
 
 ## Data Visualization
 
-Data visualizations were created to better understand the distribution and relationships between features. Key visualizations include:
+Data visualizations were created to understand the distribution and relationships between features better. Key visualizations include:
 - Bar plots for `salary` and `Department` vs. `left`.
 - Box plots for numeric features like `satisfaction_level`, `last_evaluation`, etc.
 - Histograms to visualize feature distributions.
@@ -53,14 +53,14 @@ The model's performance is evaluated using the following metrics:
 
 ## Cross-Validation
 
-5-Fold Cross Validation is applied to ensure that the model performs well across different data folds. The average cross-validation accuracy is reported.
+5-Fold cross-validation is applied to ensure that the model performs well across different data folds. The average cross-validation accuracy is reported.
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/employee-attrition-prediction.git
-    cd employee-attrition-prediction
+    git clone https://github.com/subtledhawal/Employee-Attrition-Prediction.git
+    cd Employee-Attrition-Prediction
     ```
 
 2. Install the required libraries:
